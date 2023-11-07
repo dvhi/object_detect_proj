@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fruits.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <title>Object Detection</title>
+</head>
+<body background="fruits_bg.jpeg">
+    <div class="container">
+        <h1 class="text-center">Object Detection</h1>
+        <a href="../index.html" class="btn btn-primary">Back</a>
+        <div id="status" class="status-container">Detecting Objects</div>
+        <div id="object-info" class="object-info-container">Objects: <span id="detected-objects">0</span></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="fruits.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.status-container {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.object-info-container {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#canvas {
+    background-color: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
